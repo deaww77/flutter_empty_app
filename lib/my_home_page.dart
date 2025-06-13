@@ -16,8 +16,9 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Hello chanon"),
-            Text("welcome to app!"),
+            Text("Hello chanon", style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),),
+            SizedBox(height: 20),
+            Text("welcome to app!", style: TextStyle(fontSize: 18),),
           ],
         ),
       ),

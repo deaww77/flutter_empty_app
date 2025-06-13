@@ -12,8 +12,11 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        appBarTheme: const AppBarTheme(),
-          
+        appBarTheme: const AppBarTheme(
+           backgroundColor: Color.fromARGB(255, 10, 168, 89),
+           foregroundColor: Color.fromARGB(255, 255, 255, 255)
+        ),
+           
         ),
       home: MyHomePage()
     );
